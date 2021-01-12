@@ -1,0 +1,26 @@
+.h1-tile_flex{
+    display: flex;
+    justify-content: center;
+    transition:2s;
+    opacity: 1;
+}
+.block_1{
+    transform: rotateY(180deg);
+    transition: 1.5s;
+}
+.block_2{
+    transform: rotateY(180deg);
+    transition: 1.5s;
+}
+.block_3{
+    transform: rotateY(180deg);
+    transition: 1.5s;
+}
+.block_4{
+    transform: rotateY(180deg);
+    transition: 1.5s;
+}
+.img-anim{
+    opacity: 1;
+    transition: 1.5s;
+}

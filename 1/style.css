@@ -1,0 +1,159 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 120px ;
+}
+.header{
+    background-image:url(../1/img/prague.png);
+}
+.navbar{
+    position: sticky;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.mid-menu{
+    padding-top: 37px;
+}
+.mid-menu a{
+    text-decoration: none;
+    color: white;
+}
+.nav-text{
+    font-size: 25px;
+    padding-right: 35px;
+}
+.nav-text:hover{
+    color: #FFF500;
+}
+.btn-1{
+    background-color: #000;
+    color: #fff;
+    border-radius: 45px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.login{
+    padding-top: 30px;
+}
+.btn-1:active, .btn-1:focus { 
+    outline: none; 
+}
+.btn-2:active, .btn-2:focus { 
+    outline: none; 
+}
+.header-content{
+    margin-top: 230px;
+}
+.text-content p{
+    color: #fff;
+    font-size: 25px;
+}
+.btn-2{
+    background-color:#FFF500 ;
+    color: #000;
+    font-size: 25px;
+    border-radius: 55px;
+    padding: 20px 60px;
+}
+.header-social{
+    padding-top: 43px;
+    padding-bottom: 53px;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.header-social a img{
+    width: 80px;
+    padding-right: 25px;
+}
+.expect{
+    opacity: 0;
+}
+.expect-content h1{
+    font-size: 3em;
+}
+.content-block-1{
+    display: flex;
+   justify-content: center;
+}
+.block-1-image img{
+    width: 550px;
+    padding-top: 30px;
+}
+.block-1-text{
+    text-align: right;
+    font-size: 23px;
+    padding-right: 75px;
+}
+.content-block-2{
+    display: flex;
+   justify-content: center;
+}
+.block-2-image img{
+    width: 550px;
+    padding-top: 30px;
+}
+.block-2-text{
+    text-align: left;
+    font-size: 23px;
+    padding-left: 75px;
+}
+.content-block-3{
+    display: flex;
+   justify-content: center;
+}
+.block-3-image img{
+    width: 550px;
+    padding-top: 30px;  
+}
+.block-3-text{
+    text-align: right;
+    font-size: 23px;
+    padding-right: 75px;
+}
+.content-block-4{
+    display: flex;
+   justify-content: center;
+}
+.block-4-image img{
+    width: 550px;
+    padding-top: 30px;  
+}
+.block-4-text{
+    text-align: left;
+    font-size: 23px;
+    padding-left: 75px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+}
+.team-content{
+    display: flex;
+    opacity: 0;
+}
+.content-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 40px;
+}
+.team-img img{
+    width: 180px;
+    border-radius: 45%;
+}
+.team-name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer{
+    height: 400px;
+    background-color: #000;
+}
+.footer h1{
+    color: #fff;
+}
